@@ -1,0 +1,38 @@
+
+footer {
+    background-color: hsl(212, 93%, 23%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ulDiv {
+    margin: 2rem 6rem;
+    gap: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 0.8rem;
+    border-bottom: solid 0.1rem white;
+    padding-left: 3rem;
+}
+
+.ulDiv article {
+    width: 20%;
+}
+
+.lastDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 6rem 1rem 6rem;
+}
+
+.lastDiv nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.lastDiv nav ul a{
+    color: white;
+}

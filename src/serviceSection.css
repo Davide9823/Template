@@ -1,0 +1,30 @@
+
+.Services{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.serviceTitle {
+    display: flex;
+    flex: row;
+    color: white;
+    padding: 0  0 2rem 4rem;
+    justify-content: left;
+    align-items: center;
+}
+.serviceTitle h1 {
+    margin: 1rem 2rem 1rem 0rem;
+    padding: 0.1rem 0.3rem;
+    background-color: #4f9cf9;
+    border-radius: 4px;
+    font-size: 2rem;
+}
+.serviceTitle p {
+    font-size: 1rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,117 @@
+
+.secondSection {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    padding: 5rem 0rem;
+}
+
+.thirdSection {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    padding: 5rem 0rem;
+}
+.projectManDiv {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    height: 50%;
+}
+.workTogetherDiv {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    height: 50%;
+    padding-right: 12rem;
+}
+
+
+.ProjectManSecond {
+    align-content: center;
+    color: black;
+    padding-left: 15rem;
+    font-size: 1.4rem;
+    padding-right: 5rem;
+}
+.ProjectManSecond p {
+    padding-bottom: 4rem;
+}
+
+.projectImage {
+    align-items: center;
+}
+
+.projectImage img {
+    position: relative;
+    width: 70%;
+    padding-right: 1rem;
+}
+
+.workTogetherSecond {
+    align-content: center;
+    color: black;
+    padding-left: 16rem;
+    font-size: 1.4rem;
+}
+
+.workTogetherSecond p {
+    padding-bottom: 4rem;
+}
+
+.buttonP {
+    position: relative;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #4f9cf9;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.buttonP i {
+    padding: 0.3rem;
+}
+
+.buttonP::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ebc247;
+    z-index: 0;
+    transition: 0.6s;
+    border-radius: 8px;
+}
+
+.buttonP:hover::before {
+    width: 100%;
+}
+
+.buttonP span {
+    position: relative;
+    z-index: 2;
+    transition: 0.6s;
+}
+
+.buttonP:hover {
+    color: hsl(212, 93%, 23%);
+}
+
+.imageWork {
+    display: flex;
+    justify-content: right;
+}
+.imageWork img{
+    width: 65%;
+}

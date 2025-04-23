@@ -1,0 +1,57 @@
+.Cardplan {
+    margin: 2rem;
+    border: solid 0.1rem gold;
+    border-radius: 10px;
+    padding: 1.5rem;
+    color: black;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.Cardplan h4 {
+    margin: 1rem 1rem;
+    font-size:  1.2rem;
+}
+.Cardplan span {
+    margin: 1rem 1rem;
+    font-weight: bold;
+    font-size:  1.8rem;
+}
+.Cardplan p {
+    margin: 1rem 1rem;
+}
+.Cardplan ul {
+    margin: 2rem 0;
+}
+.Cardplan li {
+    margin: 0.7rem;
+}
+.Cardplan li i {
+    padding-right: 0.2rem;
+}
+
+.Cardplan button {
+    background-color: white;
+    padding: 0.8rem 1.1rem;
+    border: solid gold 0.1rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.Cardplan:hover{
+    background-color: #043873;
+    color: white;
+    border: none;
+    transform: scale(1.03);
+}
+.Cardplan:hover button {
+    background-color: #4f9cf9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Cardplan button:hover {
+    background-color: #ebc247;
+    color: hsl(212, 93%, 23%);
+}

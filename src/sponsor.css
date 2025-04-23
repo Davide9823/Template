@@ -1,0 +1,24 @@
+.sponsorSection {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.sponsorTitle h3 {
+    margin: 5rem 0 3rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.sponsorList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 10rem 3rem 10rem;
+    padding: 0 5rem 0 5rem;
+}
+.sponsorList img {
+    margin: 1.5rem 9rem;
+    width: 13%;
+    object-fit: contain;
+}
