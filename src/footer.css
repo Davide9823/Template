@@ -9,7 +9,6 @@ footer {
 
 .ulDiv {
     margin: 2rem 6rem;
-    gap: 2.5rem;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -19,7 +18,22 @@ footer {
 }
 
 .ulDiv article {
+    width: 70%;
+    padding-right: 0;
+}
+
+.footerArticleDiv {
     width: 20%;
+    margin-top: 2rem;
+}
+
+.FooterNavDiv {
+    margin: 2rem 1rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 1rem;
 }
 
 .lastDiv {
@@ -35,4 +49,50 @@ footer {
 }
 .lastDiv nav ul a{
     color: white;
+}
+
+
+@media (max-width: 768px) {
+    .ulDiv {
+        margin: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ulDiv article {
+        width: auto;
+        margin-bottom: 1rem;
+    }
+
+    .footerArticleDiv {
+        width: auto;
+        margin-top: 1rem;
+    }
+
+    .FooterNavDiv {
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .lastDiv {
+        flex-direction: column;
+        margin: 0.5rem;
+        margin-left: 2rem;
+    }
+
+    .lastDiv nav ul {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .lastDiv nav ul a {
+        font-size: 1rem;
+    }
+    .IconDiv {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: left;
+        margin-left: 1rem;
+    }
 }

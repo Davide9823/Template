@@ -21,3 +21,19 @@
     grid-template-columns: repeat(3, 1fr);
     margin: 3rem 14rem;
 }
+
+
+@media (max-width: 768px) {
+    .subCardDiv {
+        grid-template-columns: 1fr;
+        margin: 2rem 1rem; 
+    }
+
+    .subTitle h2 {
+        font-size: 2rem;
+    }
+
+    .subTitle p {
+        font-size: 1rem;
+    }
+}

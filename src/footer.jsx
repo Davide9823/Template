@@ -6,11 +6,14 @@ export default function Footer() {
     return(
         <footer>
             <div className='ulDiv'>
+                <div className='footerArticleDiv'>
                 <article>    
                     <img src={LogoCompleto} alt="" />
                     <p>whitepace was created for the new ways we live and work. We make a better workspace around the world</p>
                 </article>
+                </div>
 
+                <div className='FooterNavDiv'>
                 <nav>    
                     <h5>Product</h5>
                     <ul>
@@ -37,6 +40,7 @@ export default function Footer() {
                         <li>Media kit</li>
                     </ul>
                 </nav>
+                </div>
             </div>
 
             <div className='lastDiv'>
@@ -52,7 +56,7 @@ export default function Footer() {
                 <div className='IconDiv'>
                     <a href=""><img src={SocialIcon} alt="" /></a>
                 </div>
-            </div>   
+            </div>    
         </footer>
     )
 }

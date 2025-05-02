@@ -28,3 +28,28 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+@media (max-width: 768px) {
+    .Services {
+        padding: 2rem 1rem;
+    }
+
+    .serviceTitle {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 0 1.5rem 0;
+    }
+
+    .serviceTitle h1 {
+        margin: 0 0 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    .serviceTitle p {
+        font-size: 0.95rem;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+    }
+}
